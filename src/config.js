@@ -26,7 +26,7 @@ export default {
   title: "Invitation", // recomanded English
   wedding: {
     place: {
-      name: "더컨벤션 신사점",
+      name: "더컨벤션 신사점 4층",
       address: "서울 강남구 강남대로 652",
       latitude: 37.5192784,
       longitude: 127.0169826,

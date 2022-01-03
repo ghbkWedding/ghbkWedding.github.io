@@ -9,9 +9,9 @@ export default function Footer() {
       <Col className="app-fluid app-footer d-flex justify-content-center align-items-center">
         <p className="mb-0">
           <small className="text-muted">
-            Code licensed under MIT License
+            Code licensed under MIT License Code by
             <span className="pl-2">
-              <a href="https://github.com/uyu423/react-wedding-card">
+              <a href="https://github.com/ghbkWedding/ghbkWedding.github.io">
                 <FontAwesome name="github" />
               </a>
             </span>
