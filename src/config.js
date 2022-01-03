@@ -23,33 +23,33 @@ export default {
       },
     },
   },
-  title: "Wedding Invitation", // recomanded English
+  title: "Invitation", // recomanded English
   wedding: {
     place: {
-      name: "예쁜 예식장 3F 아름다운홀",
-      address: "서울 영등포구 여의도동 60 63빌딩",
-      latitude: 37.51990006878117,
-      longitude: 126.94020220536675,
+      name: "더컨벤션 신사점",
+      address: "서울 강남구 강남대로 652",
+      latitude: 37.5192784,
+      longitude: 127.0169826,
     },
-    at: "2018-01-27 12:00",
+    at: "2022-02-26 18:30",
   },
   bridal: {
-    name: "신사동",
+    name: "박규휘",
     image: require("./Image/bridal.jpeg"),
-    phone: "+821011111111",
+    phone: "+821088923983",
     facebook: false, // if false, not showing facebook icon
-    father: "서울시",
-    mother: "강남구",
-    position: "장남",
+    father: "박영철",
+    mother: "김숙란",
+    position: "장녀",
   },
   groom: {
-    name: "역곡동",
+    name: "안병국",
     image: require("./Image/groom.jpeg"),
     phone: "+821022222222",
     facebook: "https://www.facebook.com/luckyyowu",
-    father: "부천시",
-    mother: "원미구",
-    position: "차녀",
+    father: "ㅇㅇㅇ",
+    mother: "ㅁㅁㅁ",
+    position: "차남",
   },
   image: {
     header: require("./Image/header.jpg"),
