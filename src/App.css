@@ -3,11 +3,14 @@
 @import url(https://fonts.googleapis.com/css?family=Lobster);
 @import url(https://fonts.googleapis.com/earlyaccess/notosanskr.css);
 @import url(https://fonts.googleapis.com/css2?family=Poor+Story&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Gowun+Batang&display=swap);
 
 .app {
   background-color: #efe8dc;
   text-align: center;
-  font-family: "Poor Story", cursive;
+  /* font-family: "Poor Story", cursive; */
+  font-family: "Gowun Batang", serif;
+
   color: #8e8b87;
   word-wrap: break-word;
   word-break: keep-all;
@@ -19,7 +22,6 @@
 }
 
 .app-header {
-  /* background-color: #222; */
   height: 80px;
   color: white;
   font-family: "Lobster";
@@ -63,7 +65,7 @@
   background-color: #a9777a;
   border-color: #a9777a;
   color: white;
-  width: 40%;
+  width: 60%;
 }
 
 .txt {
