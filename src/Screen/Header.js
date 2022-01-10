@@ -22,13 +22,7 @@ export default function Header(props) {
         <Row>
           <Col className="pt-5">
             <h3>
-              {bridal.name}&nbsp;
-              <small>
-                <span className="text-middle" style={{ color: "red" }}>
-                  <FontAwesome name="heart" />
-                </span>
-              </small>
-              &nbsp;{groom.name}
+              {bridal.name}&nbsp;♥&nbsp;{groom.name}
             </h3>
             <h3>결혼식에 초대합니다.</h3>
             <p className="lead pt-3">

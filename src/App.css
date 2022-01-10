@@ -5,11 +5,16 @@
 @import url(https://fonts.googleapis.com/css2?family=Poor+Story&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Gowun+Batang&display=swap);
 
+@font-face {
+  font-family: "student";
+  src: url("./Font/나눔손글씨 수줍은 대학생.ttf");
+}
+
 .app {
   background-color: #efe8dc;
   text-align: center;
   /* font-family: "Poor Story", cursive; */
-  font-family: "Gowun Batang", serif;
+  font-family: "student";
 
   color: #8e8b87;
   word-wrap: break-word;
