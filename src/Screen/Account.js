@@ -1,19 +1,32 @@
 import React from "react";
 import { Row, Col } from "reactstrap";
+import FontAwesome from "react-fontawesome";
 
 export default function Account(props) {
   const {} = props.config;
   return (
-    <Row className="mb-5">
-      <h3>신랑 신부에게 마음 전하기</h3>
-      <Row className="nav-button">
-        <Col className="pt-2 pb-2 pr-3">
-          <a className="btn btn-naver btn-block">지도 바로가기</a>
-        </Col>
-        <Col className="pt-2 pb-2 pr-3">
-          <a className="btn btn-naver btn-block">지도 바로가기</a>
+    <Col className="mb-5">
+      <Row className="pt-3">
+        <Col>
+          <h3>신랑 신부에게 마음 전하기</h3>
         </Col>
       </Row>
-    </Row>
+      <Row className="nav-button mb-1">
+        <Col>
+          <a className="btn btn-block btn-account">
+            신부측 계좌번호
+            <FontAwesome name="user" />
+          </a>
+        </Col>
+      </Row>
+      <Row className="nav-button mb-1">
+        <Col>
+          <a className="btn btn-block btn-account">
+            신랑측 계좌번호
+            <FontAwesome name="user" />
+          </a>
+        </Col>
+      </Row>
+    </Col>
   );
 }

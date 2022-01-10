@@ -39,7 +39,6 @@
 }
 
 .btn-naver {
-  font-family: "Noto Sans KR", sans-serif;
   background-color: #a9777a;
   border-color: #a9777a;
   color: white;
@@ -54,6 +53,13 @@
 .profile-image {
   width: 100%;
   height: 100%;
+}
+
+.btn-account {
+  background-color: #a9777a;
+  border-color: #a9777a;
+  color: white;
+  width: 60%;
 }
 
 .icon {
