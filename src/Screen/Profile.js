@@ -6,11 +6,11 @@ import { ProfileCard } from "../Component";
 export default function Profile(props) {
   const { bridal, groom } = props.config;
   return (
-    <Row className="mt-3 mb-5">
+    <Row className="mt-5 mb-5">
       <Col>
         <ProfileCard profile={bridal} />
       </Col>
-      <Col>
+      <Col className="mb-5">
         <ProfileCard profile={groom} />
       </Col>
     </Row>

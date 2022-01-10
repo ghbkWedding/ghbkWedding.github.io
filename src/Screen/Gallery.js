@@ -5,7 +5,7 @@ import { Row, Col } from "reactstrap";
 export default function Gallery(props) {
   const { image } = props.config;
   return (
-    <Row className="mb-5">
+    <Row className="mb-5 mt-5">
       <Col>
         <ImageGallery items={image.gallery} />
       </Col>
