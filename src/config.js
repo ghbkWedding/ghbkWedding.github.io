@@ -53,11 +53,11 @@ export default {
     phone: "+821022222222",
     father: "ㅇㅇㅇ",
     mother: "ㅁㅁㅁ",
-    fatherPhone: false,
+    fatherPhone: "+8201076857852",
     motherPhone: "+8201076857852",
     position: "차남",
   },
-  count: {
+  account: {
     bridal: "",
     groom: "",
   },

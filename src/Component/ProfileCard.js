@@ -34,7 +34,6 @@ export default function ProfileCard(props) {
             <h4>{name}</h4>
           </Col>
         </Row>
-
         <Row>
           <Col>
             <p className="mb-1">{role}에게 연락하기</p>
@@ -56,7 +55,6 @@ export default function ProfileCard(props) {
             </a>
           </Col>
         </Row>
-
         <Row className="pt-4">
           <Col>
             <p className="mb-2">{role} 측 혼주</p>
@@ -84,27 +82,31 @@ export default function ProfileCard(props) {
           </Col>
         </Row>
 
-        <Row>
-          <Col>
-            <p className="mb-1">아버지 {father}</p>
-          </Col>
-          <Col>
-            <a
-              className="btn btn-secondary m-1"
-              role="button"
-              href={`tel:${fatherPhone}`}
-            >
-              <FontAwesome name="phone" />
-            </a>
-            <a
-              className="btn btn-secondary m-1"
-              role="button"
-              href={`sms:${fatherPhone}`}
-            >
-              <FontAwesome name="envelope" />
-            </a>
-          </Col>
-        </Row>
+        {fatherPhone ? (
+          <Row>
+            <Col>
+              <p className="mb-1">아버지 {father}</p>
+            </Col>
+            <Col>
+              <a
+                className="btn btn-secondary m-1"
+                role="button"
+                href={`tel:${fatherPhone}`}
+              >
+                <FontAwesome name="phone" />
+              </a>
+              <a
+                className="btn btn-secondary m-1"
+                role="button"
+                href={`sms:${fatherPhone}`}
+              >
+                <FontAwesome name="envelope" />
+              </a>
+            </Col>
+          </Row>
+        ) : (
+          ""
+        )}
       </Col>
     </Row>
   );

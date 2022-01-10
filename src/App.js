@@ -4,6 +4,7 @@ import { Container } from "reactstrap";
 import "./App.css";
 import Screen from "./Screen";
 import config from "./config";
+import Account from "./Screen/Account";
 
 export default function App() {
   return (
@@ -12,6 +13,7 @@ export default function App() {
       <Screen.Profile config={config} />
       <Screen.Gallery config={config} />
       <Screen.Place config={config} />
+      <Screen.Account config={config} />
       <Screen.Footer />
     </Container>
   );
