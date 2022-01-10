@@ -55,14 +55,19 @@
   height: 100%;
 }
 
+.nav-button {
+  alignitems: center;
+}
+
 .btn-account {
   background-color: #a9777a;
   border-color: #a9777a;
   color: white;
-  width: 60%;
+  width: 40%;
 }
 
-.icon {
-  width: 80%;
-  height: 80%;
+.txt {
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 20px;
 }

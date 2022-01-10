@@ -4,7 +4,6 @@ import { Container } from "reactstrap";
 import "./App.css";
 import Screen from "./Screen";
 import config from "./config";
-import Account from "./Screen/Account";
 
 export default function App() {
   return (

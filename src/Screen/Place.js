@@ -1,7 +1,7 @@
 import React from "react";
 import { Row, Col } from "reactstrap";
 
-import { Map } from "../Component";
+// import { Map } from "../Component";
 
 export default function Place(props) {
   const { name, latitude, longitude, image } = props.config.wedding.place;
@@ -30,17 +30,17 @@ export default function Place(props) {
         </Row>
         <Row className="mb-5">
           <Col>
-            <p className="mb-1">서울특별시 강남구 강남대로</p>
-            <p className="mb-1">652 02 . 6081 . 5000</p>
+            <p className="mb-1 txt">서울특별시 강남구 강남대로</p>
+            <p className="mb-1 txt">652 02 . 6081 . 5000</p>
           </Col>
 
           <Col>
-            <p className="mb-1">
-              지하철 이용 시3호선 신사역 6번 출구 (도보 5분)
+            <p className="mb-1 txt">
+              지하철 이용 시: 3호선 신사역 6번 출구 (도보 5분)
             </p>
-            <p className="mb-1">
-              버스 이용 시240, 4312, 9404, 6009, 145, 148, 441, 542, 4212, 3030,
-              강남 08, 서초 03
+            <p className="mb-1 txt">
+              버스 이용 시: 240, 4312, 9404, 6009, 145, 148, 441, 542, 4212,
+              3030, 강남 08, 서초 03
             </p>
           </Col>
         </Row>
