@@ -6,7 +6,7 @@ import { Map } from "../Component";
 export default function Place(props) {
   const { name, latitude, longitude, image } = props.config.wedding.place;
   return (
-    <Row className="mb-5">
+    <Row>
       <Col>
         <Row className="pt-3">
           <Col>

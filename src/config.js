@@ -57,6 +57,10 @@ export default {
     motherPhone: "+8201076857852",
     position: "차남",
   },
+  count: {
+    bridal: "",
+    groom: "",
+  },
   image: {
     header: require("./Image/header.jpg"),
     gallery: gallery.map((item) => ({
