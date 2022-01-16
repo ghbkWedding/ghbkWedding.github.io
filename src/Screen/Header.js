@@ -12,7 +12,7 @@ export default function Header(props) {
       <Col>
         <Row>
           <Col className="app-fluid">
-            <div className="app-header d-flex justify-content-center align-items-center">
+            <div className="app-header d-flex justify-content-center">
               <h2 className="mb-0">{title}</h2>
             </div>
             <img className="img-fluid" src={image.header} alt="header" />
@@ -20,7 +20,7 @@ export default function Header(props) {
         </Row>
         <Row>
           <Col className="pt-5">
-            <h3>
+            <h3 className="txt-title">
               {bridal.name}&nbsp;♥&nbsp;{groom.name}
             </h3>
             <h3>결혼식에 초대합니다.</h3>

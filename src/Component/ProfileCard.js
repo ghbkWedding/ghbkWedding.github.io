@@ -31,7 +31,7 @@ export default function ProfileCard(props) {
             <p className="mb-1 txt-head">
               {father}, {mother}의 {position}
             </p>
-            <h4>{name}</h4>
+            <h4 className="txt-title">{name}</h4>
           </Col>
         </Row>
         <Row>
@@ -59,7 +59,7 @@ export default function ProfileCard(props) {
         </Row>
         <Row className="pt-4 txt-head">
           <Col>
-            <p className="mb-2 txt-title">{role} 측 혼주</p>
+            <p className="mb-2 txt-head">{role} 측 혼주</p>
           </Col>
         </Row>
         {motherPhone ? (
