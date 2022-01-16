@@ -47,14 +47,6 @@ export default function ProfileCard(props) {
             >
               <FontAwesome name="phone" />
             </a>
-            <a
-              className="btn-icon"
-              size="sm"
-              role="button"
-              href={`sms:${phone}`}
-            >
-              <FontAwesome name="envelope" />
-            </a>
           </Col>
         </Row>
         <Row className="pt-4 txt-head">
