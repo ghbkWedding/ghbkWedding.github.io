@@ -42,7 +42,7 @@ export default {
     account: "카카오뱅크 3333036818477",
     mother: "김숙란",
     motherPhone: "+8201076857852",
-    motherAccount: "엄마계좌",
+    motherAccount: "우리은행 1002447295137",
     father: "박영철",
     fatherPhone: false,
     fatherAccount: false,
