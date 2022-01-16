@@ -6,16 +6,14 @@
 @import url(https://fonts.googleapis.com/css2?family=Gowun+Batang&display=swap);
 
 @font-face {
-  font-family: "student";
-  src: url("./Font/나눔손글씨 수줍은 대학생.ttf");
+  font-family: "bae";
+  src: url("./Font/bae.ttf");
 }
 
 .app {
-  background-color: #efe8dc;
+  background-color: #ffffff;
   text-align: center;
-  /* font-family: "Poor Story", cursive; */
-  font-family: "student";
-
+  font-family: "bae";
   color: #8e8b87;
   word-wrap: break-word;
   word-break: keep-all;
@@ -38,17 +36,25 @@
   font-family: "Noto Sans KR", sans-serif;
 }
 
-.btn-kakao {
-  font-family: "Noto Sans KR", sans-serif;
-  background-color: #ffee33;
-  border-color: #ffee33;
-  color: black;
+.btn-icon {
+  margin: 5px;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  padding: 8px 10px;
+  border-radius: 8px;
+  background: #a9777a;
+  color: #ffffff;
 }
 
 .btn-naver {
-  background-color: #a9777a;
-  border-color: #a9777a;
-  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 1.3rem;
+  border-radius: 8px;
+  background: #a9777a;
+  color: #ffffff;
+  width: 100%;
 }
 
 .map-image {
@@ -67,14 +73,23 @@
 }
 
 .btn-account {
-  background-color: #a9777a;
-  border-color: #a9777a;
-  color: white;
-  width: 60%;
+  margin: 5px;
+  border: none;
+  cursor: pointer;
+  font-size: 1.3rem;
+  border-radius: 8px;
+  background: #a9777a;
+  color: #ffffff;
 }
 
 .txt {
+  font-size: 1.2rem;
   text-align: left;
   padding-left: 20px;
   padding-right: 20px;
+}
+
+.txt-head {
+  font-size: 1.3rem;
+  font-weight: bold;
 }

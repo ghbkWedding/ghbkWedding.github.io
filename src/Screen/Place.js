@@ -28,20 +28,21 @@ export default function Place(props) {
             </a>
           </Col>
         </Row>
-        <Row className="mb-5">
+        <Row className="mb-5 txt">
           <Col>
-            <p className="mb-1 txt">서울특별시 강남구 강남대로</p>
-            <p className="mb-1 txt">652 02 . 6081 . 5000</p>
-          </Col>
-
-          <Col>
-            <p className="mb-1 txt">
-              지하철 이용 시: 3호선 신사역 6번 출구 (도보 5분)
+            <p className="mb-1 txt-head">더컨벤션 신사</p>
+            <p className="mb-3">Tel. 02-6081-5000</p>
+            <p className="mb-1 txt-head">지하철 이용 시</p>
+            <p className="mb-3">3호선(신사역) 6번 출구에서 300M 도보 5분</p>
+            <p className="mb-1 txt-head">버스 이용 시</p>
+            <p className="mb-3">
+              40, 4312, 9404, 6009, 145, 148, 441, 542, 4212, 3030, 강남08,
+              서초03
             </p>
-            <p className="mb-1 txt">
-              버스 이용 시: 240, 4312, 9404, 6009, 145, 148, 441, 542, 4212,
-              3030, 강남 08, 서초 03
-            </p>
+            <p className="mb-1 txt-head">자가용 이용시</p>
+            <p className="mb-1">네비게이션 주소검색</p>
+            <p className="mb-1">신주소) 강남구 강남대로 652 신사스퀘어</p>
+            <p className="mb-1">구주소) 강남구 신사동 504-11</p>
           </Col>
         </Row>
       </Col>

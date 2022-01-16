@@ -1,7 +1,6 @@
 import React from "react";
 import moment from "moment";
 import { Row, Col } from "reactstrap";
-import FontAwesome from "react-fontawesome";
 
 import "moment/locale/ko";
 

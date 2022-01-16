@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { Row, Col } from "reactstrap";
 
-export default function Account() {
-  // const {} = props.config;
+export default function Account(props) {
+  const { bridal, groom } = props.config;
   const [displayState, setDisplayState] = useState(false);
 
   const onClickAccountBtn = () => {
@@ -10,26 +10,43 @@ export default function Account() {
   };
 
   return (
-    <Col className="mb-5">
-      <Row className="pt-3">
+    <Col>
+      <Row>
         <Col>
           <h3>신랑 신부에게 마음 전하기</h3>
         </Col>
       </Row>
-      <Row className="nav-button mb-1">
+      <Row className="btn-account">
         <Col className="pt-2 pb-2 pr-3">
-          <a className="btn btn-account" onClick={onClickAccountBtn}>
-            계좌번호 확인하기 ▽
-          </a>
+          <a onClick={onClickAccountBtn}>계좌번호 확인 ▽</a>
         </Col>
       </Row>
+
       {displayState ? (
-        <Row className="mb-1">
-          <Col className="pt-2 pb-2 pr-3">
-            <p className="mb-1">신부측</p>
-            <p className="mb-1">카카오뱅크 3333036818477 (박규휘)</p>
-          </Col>
-        </Row>
+        <div>
+          <Row className="mb-1">
+            <Col className="pt-2 pb-2 pr-3">
+              <p className="mb-1">{bridal.role}측</p>
+              <p className="mb-1">
+                {bridal.motherAccount} ({bridal.mother})
+              </p>
+              <p className="mb-1">
+                {bridal.account} ({bridal.name})
+              </p>
+            </Col>
+          </Row>
+          <Row className="mb-1">
+            <Col className="pt-2 pb-2 pr-3">
+              <p className="mb-1">{groom.role}측</p>
+              <p className="mb-1">
+                {groom.motherAccount} ({groom.mother})
+              </p>
+              <p className="mb-1">
+                {groom.account} ({groom.name})
+              </p>
+            </Col>
+          </Row>
+        </div>
       ) : (
         ""
       )}

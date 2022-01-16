@@ -28,7 +28,7 @@ export default function ProfileCard(props) {
         </Row>
         <Row className="pt-4">
           <Col>
-            <p className="mb-1">
+            <p className="mb-1 txt-head">
               {father}, {mother}의 {position}
             </p>
             <h4>{name}</h4>
@@ -36,18 +36,20 @@ export default function ProfileCard(props) {
         </Row>
         <Row>
           <Col>
-            <p className="mb-1">{role}에게 연락하기</p>
+            <p className="mb-1 txt">{role}에게 연락하기</p>
           </Col>
           <Col>
             <a
-              className="btn btn-secondary m-1"
+              className="btn-icon"
+              size="sm"
               role="button"
               href={`tel:${phone}`}
             >
               <FontAwesome name="phone" />
             </a>
             <a
-              className="btn btn-secondary m-1"
+              className="btn-icon"
+              size="sm"
               role="button"
               href={`sms:${phone}`}
             >
@@ -55,51 +57,38 @@ export default function ProfileCard(props) {
             </a>
           </Col>
         </Row>
-        <Row className="pt-4">
+        <Row className="pt-4 txt-head">
           <Col>
             <p className="mb-2 txt-title">{role} 측 혼주</p>
           </Col>
         </Row>
-        <Row>
-          <Col>
-            <p className="mb-1">어머니 {mother}</p>
-          </Col>
-          <Col>
-            <a
-              className="btn btn-secondary m-1"
-              role="button"
-              href={`tel:${motherPhone}`}
-            >
-              <FontAwesome name="phone" />
-            </a>
-            <a
-              className="btn btn-secondary m-1"
-              role="button"
-              href={`sms:${motherPhone}`}
-            >
-              <FontAwesome name="envelope" />
-            </a>
-          </Col>
-        </Row>
-
-        {fatherPhone ? (
-          <Row>
+        {motherPhone ? (
+          <Row className="mb-3">
             <Col>
-              <p className="mb-1">아버지 {father}</p>
+              <p className="mb-1 txt">어머니 {mother}</p>
             </Col>
             <Col>
-              <a
-                className="btn btn-secondary m-1"
-                role="button"
-                href={`tel:${fatherPhone}`}
-              >
+              <a className="btn-icon" role="button" href={`tel:${motherPhone}`}>
                 <FontAwesome name="phone" />
               </a>
-              <a
-                className="btn btn-secondary m-1"
-                role="button"
-                href={`sms:${fatherPhone}`}
-              >
+              <a className="btn-icon" role="button" href={`sms:${motherPhone}`}>
+                <FontAwesome name="envelope" />
+              </a>
+            </Col>
+          </Row>
+        ) : (
+          ""
+        )}
+        {fatherPhone ? (
+          <Row className="mb-1">
+            <Col>
+              <p className="mb-1 txt">아버지 {father}</p>
+            </Col>
+            <Col>
+              <a className="btn-icon" role="button" href={`tel:${fatherPhone}`}>
+                <FontAwesome name="phone" />
+              </a>
+              <a className="btn-icon" role="button" href={`sms:${fatherPhone}`}>
                 <FontAwesome name="envelope" />
               </a>
             </Col>
