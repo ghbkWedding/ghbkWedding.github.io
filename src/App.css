@@ -64,7 +64,7 @@
 .btn-icon {
   border: none;
   cursor: pointer;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   padding: 6px 8px;
   margin: 20px;
   border-radius: 8px;
@@ -98,25 +98,32 @@
   margin: 5px;
   border: none;
   cursor: pointer;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   border-radius: 8px;
   background: #efe7db;
   color: #464641;
 }
 
-.txt {
-  font-size: 1.2rem;
+.txt-left {
+  font-size: 1.1rem;
   text-align: left;
   padding-left: 20px;
   padding-right: 20px;
 }
 
+.txt-ceter {
+  font-size: 1.3rem;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 .txt-head {
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   font-family: "YUniverse-B";
 }
 
 .txt-title {
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-family: "YUniverse-B";
 }

@@ -17,12 +17,12 @@ export default function Profile(props) {
         </Col>
       </Row>
       <Row>
-        <Col className="mb-5">
-          <h4>평생을 같이하고 싶은 사람을 만났습니다.</h4>
-          <h4>서로 아껴주고 이해하며</h4>
-          <h4>사랑 베풀며 살고 싶습니다.</h4>
-          <h4>저희 약속 위에 따뜻한 격려로 축복해주셔서</h4>
-          <h4>힘찬 출발의 디딤이 되어 주십시오.</h4>
+        <Col className="mb-5 txt-center">
+          <p className="lead">평생을 같이하고 싶은 사람을 만났습니다.</p>
+          <p>서로 아껴주고 이해하며</p>
+          <p>사랑 베풀며 살고 싶습니다.</p>
+          <p>저희 약속 위에 따뜻한 격려로 축복해 주셔서</p>
+          <p>힘찬 출발의 디딤이 되어 주십시오.</p>
         </Col>
       </Row>
     </div>

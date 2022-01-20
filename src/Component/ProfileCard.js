@@ -31,7 +31,7 @@ export default function ProfileCard(props) {
             <p className="mb-1 txt-head">
               {father}, {mother}의 {position}
             </p>
-            <h4 className="txt-title">{name}</h4>
+            <p className="txt-title">{name}</p>
           </Col>
         </Row>
         <Row>

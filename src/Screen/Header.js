@@ -22,13 +22,10 @@ export default function Header(props) {
             <h3 className="txt-title">
               {bridal.name}&nbsp;♥&nbsp;{groom.name}
             </h3>
-            {/* <h3>결혼식에 초대합니다.</h3> */}
-            {/* <p className="lead pt-3"> */}
-            <h4> {moment(wedding.at, "YYYY-MM-DD HH:mm").format("LLLL")}</h4>
-            {/* </p> */}
-            {/* <p className="lead"> */}
-            <h4>{wedding.place.name}</h4>
-            {/* </p> */}
+            <p className="lead pt-3">
+              {moment(wedding.at, "YYYY-MM-DD HH:mm").format("LLLL")}
+            </p>
+            <p className="lead pt-0">{wedding.place.name}</p>
           </Col>
         </Row>
       </Col>
