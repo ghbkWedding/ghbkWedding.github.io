@@ -18,7 +18,7 @@ export default function Profile(props) {
       </Row>
       <Row>
         <Col className="mb-5 txt-center">
-          <p className="lead">평생을 같이하고 싶은 사람을 만났습니다.</p>
+          <p>평생을 같이하고 싶은 사람을 만났습니다.</p>
           <p>서로 아껴주고 이해하며</p>
           <p>사랑 베풀며 살고 싶습니다.</p>
           <p>저희 약속 위에 따뜻한 격려로 축복해 주셔서</p>

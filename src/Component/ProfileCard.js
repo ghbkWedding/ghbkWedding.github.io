@@ -28,14 +28,14 @@ export default function ProfileCard(props) {
         </Row>
         <Row className="pt-4">
           <Col>
-            <p className="mb-1 txt-head">
+            <p className="mb-1 txt-center">
               {father}, {mother}의 {position}
             </p>
-            <p className="txt-title">{name}</p>
+            <p className="txt-head">{name}</p>
           </Col>
         </Row>
         <Row>
-          <Col className="mt-3">
+          <Col>
             <a className="btn-icon" role="button" href={`tel:${phone}`}>
               <FontAwesome name="phone" />
             </a>

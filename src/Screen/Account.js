@@ -39,7 +39,7 @@ export default function Account(props) {
     <Col className="mt-5">
       <Row className="mt-5">
         <Col>
-          <h3 className="txt-title mb-3 pb-3">신랑 신부에게 마음 전하기</h3>
+          <p className="txt-title mb-3 pb-3">신랑 신부에게 마음 전하기</p>
         </Col>
       </Row>
       <Row>

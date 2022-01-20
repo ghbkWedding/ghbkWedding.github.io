@@ -8,9 +8,9 @@ export default function Place(props) {
   return (
     <Row className="mt-5">
       <Col className="mt-5">
-        <Row className="pb-3">
+        <Row>
           <Col>
-            <h3 className="txt-title">오시는 길</h3>
+            <p className="txt-title">오시는 길</p>
           </Col>
         </Row>
         <Row>

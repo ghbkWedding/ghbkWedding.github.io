@@ -34,6 +34,7 @@
 }
 
 .app {
+  font-size: 1.3rem;
   background-color: #ffffff;
   text-align: center;
   font-family: "YUniverse-L";
@@ -105,25 +106,22 @@
 }
 
 .txt-left {
-  font-size: 1.1rem;
   text-align: left;
   padding-left: 20px;
   padding-right: 20px;
 }
 
-.txt-ceter {
-  font-size: 1.3rem;
+.txt-center {
   text-align: center;
   padding-left: 20px;
   padding-right: 20px;
 }
 
 .txt-head {
-  font-size: 1.3rem;
   font-family: "YUniverse-B";
 }
 
 .txt-title {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   font-family: "YUniverse-B";
 }
