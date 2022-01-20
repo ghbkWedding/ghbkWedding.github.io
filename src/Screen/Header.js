@@ -1,7 +1,6 @@
 import React from "react";
 import moment from "moment";
 import { Row, Col } from "reactstrap";
-
 import "moment/locale/ko";
 
 export default function Header(props) {

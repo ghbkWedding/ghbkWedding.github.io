@@ -1,5 +1,7 @@
 import React, { useState, useRef } from "react";
 import { Row, Col } from "reactstrap";
+import FontAwesome from "react-fontawesome";
+import ContactCard from "../Component/ContactCard";
 
 export default function Account(props) {
   const { bridal, groom } = props.config;
@@ -40,17 +42,31 @@ export default function Account(props) {
           <h3 className="txt-title mb-3 pb-3">신랑 신부에게 마음 전하기</h3>
         </Col>
       </Row>
+      <Row>
+        <Col className="mb-3">
+          <p className="mb-1">코로나로 인해 송구스럽게도</p>
+          <p className="mb-1">계좌번호를 기재한 점 널리 이해부탁드립니다.</p>
+          <p className="mb-1">축의금이 아닌 마음만으로도</p>
+          <p className="mb-1">충분히 감사드립니다.</p>
+        </Col>
+      </Row>
+      <Row>
+        <Col className="pt-2 pb-2 pr-3">{/* <ContactCard /> */}</Col>
+      </Row>
       <Row className="btn-account mb-5">
         <Col className="pt-2 pb-2 pr-3">
           <a onClick={onClickAccountBtn}>계좌번호 확인 ▽</a>
         </Col>
       </Row>
-
+      {/* <a className="btn-icon" role="button" href={doCopy("d")}>
+                  <FontAwesome name="phone" />
+                </a> */}
       {displayState ? (
         <div>
           <Row className="mb-1 txt">
             <Col className="pb-2 pr-3">
               <p className="mb-1 txt-head">{bridal.role}측</p>
+
               <p className="mb-1">
                 {bridal.motherAccount} ({bridal.mother})
               </p>

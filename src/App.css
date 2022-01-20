@@ -64,8 +64,9 @@
 .btn-icon {
   border: none;
   cursor: pointer;
-  font-size: 1rem;
+  font-size: 1.5rem;
   padding: 6px 8px;
+  margin: 20px;
   border-radius: 8px;
   color: #8e8b87;
   background: #efe7db;
