@@ -34,13 +34,13 @@ export default function Account(props) {
   };
 
   return (
-    <Col>
-      <Row>
+    <Col className="mt-5">
+      <Row className="mt-5">
         <Col>
-          <h3>신랑 신부에게 마음 전하기</h3>
+          <h3 className="txt-title mb-3 pb-3">신랑 신부에게 마음 전하기</h3>
         </Col>
       </Row>
-      <Row className="btn-account">
+      <Row className="btn-account mb-5">
         <Col className="pt-2 pb-2 pr-3">
           <a onClick={onClickAccountBtn}>계좌번호 확인 ▽</a>
         </Col>
@@ -49,7 +49,7 @@ export default function Account(props) {
       {displayState ? (
         <div>
           <Row className="mb-1 txt">
-            <Col className="pt-2 pb-2 pr-3">
+            <Col className="pb-2 pr-3">
               <p className="mb-1 txt-head">{bridal.role}측</p>
               <p className="mb-1">
                 {bridal.motherAccount} ({bridal.mother})

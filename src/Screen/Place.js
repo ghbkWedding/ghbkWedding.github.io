@@ -6,11 +6,11 @@ import { Row, Col } from "reactstrap";
 export default function Place(props) {
   const { name, latitude, longitude, image } = props.config.wedding.place;
   return (
-    <Row>
-      <Col>
-        <Row className="pt-3">
+    <Row className="mt-5">
+      <Col className="mt-5">
+        <Row className="pb-3">
           <Col>
-            <h3>오시는 길</h3>
+            <h3 className="txt-title">오시는 길</h3>
           </Col>
         </Row>
         <Row>

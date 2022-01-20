@@ -63,9 +63,6 @@ export default function ProfileCard(props) {
               <a className="btn-icon" role="button" href={`tel:${motherPhone}`}>
                 <FontAwesome name="phone" />
               </a>
-              <a className="btn-icon" role="button" href={`sms:${motherPhone}`}>
-                <FontAwesome name="envelope" />
-              </a>
             </Col>
           </Row>
         ) : (
@@ -79,9 +76,6 @@ export default function ProfileCard(props) {
             <Col>
               <a className="btn-icon" role="button" href={`tel:${fatherPhone}`}>
                 <FontAwesome name="phone" />
-              </a>
-              <a className="btn-icon" role="button" href={`sms:${fatherPhone}`}>
-                <FontAwesome name="envelope" />
               </a>
             </Col>
           </Row>

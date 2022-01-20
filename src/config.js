@@ -23,7 +23,7 @@ export default {
       },
     },
   },
-  title: "Invitation", // recomanded English
+  title: "초대합니다.", // recomanded English
   wedding: {
     place: {
       name: "더컨벤션 신사점 4층",
@@ -53,13 +53,13 @@ export default {
     role: "신랑",
     image: require("./Image/groom.jpg"),
     phone: "+821088855038",
-    account: "기업은행 010-8885-5038",
+    account: "기업은행 01088855038",
     mother: "이주영",
     motherPhone: "+8201023376947",
-    motherAccount: "국민은행 348-102-04-028896",
+    motherAccount: "국민은행 34810204028896",
     father: "안창영",
     fatherPhone: "+8201037505572",
-    fatherAccount: "농협은행 131-02-043270",
+    fatherAccount: "농협은행 13102043270",
     position: "아들",
   },
   accountBridal: {
