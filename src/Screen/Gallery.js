@@ -6,7 +6,7 @@ export default function Gallery(props) {
   const { image } = props.config;
   return (
     <Row>
-      <Col>
+      <Col className="gallery">
         <ImageGallery items={image.gallery} />
       </Col>
     </Row>

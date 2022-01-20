@@ -1,11 +1,20 @@
 const gallery = [
   // galley image list
-  require("./Image/gallery/1.png"),
-  require("./Image/gallery/2.jpg"),
-  require("./Image/gallery/3.jpg"),
-  require("./Image/gallery/4.jpg"),
-  require("./Image/gallery/5.jpg"),
-  require("./Image/gallery/6.jpg"),
+  require("./Image/gallery/01.jpeg"),
+  require("./Image/gallery/02.jpeg"),
+  require("./Image/gallery/03.jpeg"),
+  require("./Image/gallery/04.jpeg"),
+  require("./Image/gallery/05.jpeg"),
+  require("./Image/gallery/06.jpeg"),
+  require("./Image/gallery/07.jpeg"),
+  require("./Image/gallery/08.jpeg"),
+  require("./Image/gallery/09.jpeg"),
+  require("./Image/gallery/10.jpeg"),
+  require("./Image/gallery/11.jpeg"),
+  require("./Image/gallery/12.jpeg"),
+  require("./Image/gallery/13.jpeg"),
+  require("./Image/gallery/14.jpeg"),
+  require("./Image/gallery/15.jpeg"),
 ];
 
 export default {
@@ -23,7 +32,7 @@ export default {
       },
     },
   },
-  title: "초대합니다.", // recomanded English
+  title: "초대합니다 💍", // recomanded English
   wedding: {
     place: {
       name: "더컨벤션 신사점 4층",

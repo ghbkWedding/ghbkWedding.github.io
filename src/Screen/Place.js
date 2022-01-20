@@ -18,7 +18,7 @@ export default function Place(props) {
             <img className="map-image" src={image} alt={`${name}`} />
           </Col>
         </Row>
-        <Row className="nav-button">
+        <Row>
           <Col className="pt-2 pb-2 pr-3">
             <a
               href={`navermaps://?menu=location&pinType=place&lat=${latitude}&lng=${longitude}&title=${name}`}

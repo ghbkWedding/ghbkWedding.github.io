@@ -14,14 +14,6 @@
 }
 
 @font-face {
-  font-family: "YUniverse-B";
-  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_yuniverse@1.0/YUniverse-B.woff2")
-    format("woff2");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
   font-family: "YUniverse-L";
   src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_yuniverse@1.0/YUniverse-L.woff2")
     format("woff2");
@@ -37,10 +29,13 @@
   font-style: normal;
 }
 
+.gallery {
+  /* padding: */
+}
+
 .app {
   background-color: #ffffff;
   text-align: center;
-  /* font-family: "bae"; */
   font-family: "YUniverse-L";
   color: #464641;
   word-wrap: break-word;
@@ -67,11 +62,10 @@
 } */
 
 .btn-icon {
-  margin: 3px;
   border: none;
   cursor: pointer;
   font-size: 1rem;
-  padding: 4px 6px;
+  padding: 6px 8px;
   border-radius: 8px;
   color: #8e8b87;
   background: #efe7db;
@@ -94,37 +88,34 @@
 }
 
 .profile-image {
+  padding: 10px;
   width: 100%;
   height: 100%;
-}
-
-.nav-button {
-  alignitems: center;
 }
 
 .btn-account {
   margin: 5px;
   border: none;
   cursor: pointer;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   border-radius: 8px;
   background: #efe7db;
   color: #464641;
 }
 
 .txt {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   text-align: left;
   padding-left: 20px;
   padding-right: 20px;
 }
 
 .txt-head {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   font-family: "YUniverse-B";
 }
 
 .txt-title {
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-family: "YUniverse-B";
 }
