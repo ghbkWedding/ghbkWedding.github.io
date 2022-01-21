@@ -22,8 +22,8 @@ export default function Header(props) {
           </Col>
         </Row>
         <Row>
-          <Col className="pt-5">
-            <h3 className="txt-title">
+          <Col className="pt-5 ">
+            <h3 className="txt-title mb-5">
               {bridal.name}&nbsp;♥&nbsp;{groom.name}
             </h3>
             <p className="lead pt-3">
