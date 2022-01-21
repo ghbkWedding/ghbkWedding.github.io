@@ -19,7 +19,7 @@ export default function ProfileCard(props) {
         </Row>
         <Row className="pt-4">
           <Col>
-            <p className="mb-1 txt-center txt-small">
+            <p className="mb-1 txt-center txt-small txt-head">
               {father}, {mother}의 {position}
             </p>
             <p className="txt-head">{name_short}</p>
