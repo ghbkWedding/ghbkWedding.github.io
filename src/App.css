@@ -3,11 +3,18 @@
 @import url(https://fonts.googleapis.com/css?family=Lobster);
 @import url(https://fonts.googleapis.com/earlyaccess/notosanskr.css);
 @import url(https://fonts.googleapis.com/css2?family=Poor+Story&display=swap);
-@import url(https://fonts.googleapis.com/css2?family=Gowun+Batang&display=swap);
 
 @font-face {
   font-family: "GowunBatang-Regular";
   src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/GowunBatang-Regular.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GowunBatang-Bold";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/GowunBatang-Bold.woff")
     format("woff");
   font-weight: normal;
   font-style: normal;
@@ -37,7 +44,8 @@
   font-size: 1.3rem;
   background-color: #ffffff;
   text-align: center;
-  font-family: "YUniverse-B";
+  font-family: "GowunBatang-Regular";
+  /* font-family: "YUniverse-L"; */
   color: #464641;
   word-wrap: break-word;
   word-break: keep-all;
@@ -127,10 +135,12 @@
 }
 
 .txt-head {
-  font-family: "YUniverse-B";
+  font-family: "GowunBatang-Bold";
+  /* font-family: "YUniverse-B"; */
 }
 
 .txt-title {
   font-size: 1.8rem;
-  font-family: "YUniverse-B";
+  /* font-family: "YUniverse-B"; */
+  font-family: "GowunBatang-Bold";
 }
