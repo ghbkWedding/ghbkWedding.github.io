@@ -37,7 +37,7 @@
   font-size: 1.3rem;
   background-color: #ffffff;
   text-align: center;
-  font-family: "YUniverse-L";
+  font-family: "YUniverse-B";
   color: #464641;
   word-wrap: break-word;
   word-break: keep-all;
@@ -131,6 +131,6 @@
 }
 
 .txt-title {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   font-family: "YUniverse-B";
 }
