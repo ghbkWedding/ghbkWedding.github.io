@@ -14,7 +14,11 @@ export default function Header(props) {
             <div className="app-header d-flex justify-content-center">
               <h2 className="mb-0">{title}</h2>
             </div>
-            <img className="img-fluid" src={image.header} alt="header" />
+            <img
+              className="img-fluid img-header"
+              src={image.header}
+              alt="header"
+            />
           </Col>
         </Row>
         <Row>

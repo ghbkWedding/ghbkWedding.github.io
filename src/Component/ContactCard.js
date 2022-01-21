@@ -17,7 +17,7 @@ export default function Contact(props) {
     <div>
       <Row className="pt-4 txt-head">
         <Col>
-          <p className="mb-2 txt-head">{role} 측 혼주 연락하기</p>
+          <p className="mb-3 txt-head">{role} 측 혼주 연락하기</p>
         </Col>
       </Row>
       {motherPhone ? (
