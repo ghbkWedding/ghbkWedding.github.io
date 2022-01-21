@@ -1,9 +1,8 @@
 import React from "react";
 import { Row, Col } from "reactstrap";
-import FontAwesome from "react-fontawesome";
+// import FontAwesome from "react-fontawesome";
 
 export default function Footer() {
-  const a = "";
   return (
     <Row>
       <Col className="app-fluid app-footer d-flex justify-content-center align-items-center">

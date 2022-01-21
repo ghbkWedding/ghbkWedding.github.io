@@ -12,6 +12,7 @@ export default function App() {
       <Screen.Profile config={config} />
       <Screen.Gallery config={config} />
       <Screen.Place config={config} />
+      <Screen.Contact config={config} />
       <Screen.Account config={config} />
       <Screen.Footer />
     </Container>

@@ -3,21 +3,12 @@ import { Row, Col } from "reactstrap";
 import FontAwesome from "react-fontawesome";
 
 export default function ProfileCard(props) {
-  const {
-    name,
-    role,
-    image,
-    phone,
-    father,
-    mother,
-    fatherPhone,
-    motherPhone,
-    position,
-  } = props.profile;
+  const { name, name_short, image, phone, father, mother, position } =
+    props.profile;
   return (
     <Row>
       <Col>
-        <Row className="pt-3 mb-5">
+        <Row className="pt-3">
           <Col>
             <img
               className="rounded-circle profile-image"
@@ -28,10 +19,10 @@ export default function ProfileCard(props) {
         </Row>
         <Row className="pt-4">
           <Col>
-            <p className="mb-1 txt-center">
+            <p className="mb-1 txt-center txt-small">
               {father}, {mother}의 {position}
             </p>
-            <p className="txt-head">{name}</p>
+            <p className="txt-head">{name_short}</p>
           </Col>
         </Row>
         <Row>

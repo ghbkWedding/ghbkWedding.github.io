@@ -19,7 +19,7 @@ export default function Place(props) {
           </Col>
         </Row>
         <Row>
-          <Col className="pt-2 pb-2 pr-3">
+          <Col className="pt-2 pb-2 pr-3 mb-5">
             <a
               href={`navermaps://?menu=location&pinType=place&lat=${latitude}&lng=${longitude}&title=${name}`}
               className="btn btn-naver btn-block"

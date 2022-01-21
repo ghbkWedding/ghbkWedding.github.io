@@ -32,7 +32,7 @@ export default {
       },
     },
   },
-  title: "초대합니다 💍", // recomanded English
+  title: "Wedding Day 💍", // recomanded English
   wedding: {
     place: {
       name: "더컨벤션 신사점 4층",
@@ -45,6 +45,7 @@ export default {
   },
   bridal: {
     name: "박규휘",
+    name_short: "규휘",
     role: "신부",
     image: require("./Image/bridal.jpg"),
     phone: "+821088923983",
@@ -59,6 +60,7 @@ export default {
   },
   groom: {
     name: "안병국",
+    name_short: "병국",
     role: "신랑",
     image: require("./Image/groom.jpg"),
     phone: "+821088855038",

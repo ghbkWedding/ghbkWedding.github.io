@@ -52,8 +52,8 @@
   margin-top: 20px;
   height: 80px;
   font-family: "YUniverse-B";
-  /* color: #8e8b87; */
-  /* font-family: "Lobster"; */
+  color: #8e8b87;
+  font-family: "Lobster";
 }
 
 /* .app-footer {
@@ -65,9 +65,9 @@
 .btn-icon {
   border: none;
   cursor: pointer;
-  font-size: 1.2rem;
+  font-size: 1rem;
   padding: 6px 8px;
-  margin: 20px;
+  margin: 10px;
   border-radius: 8px;
   color: #8e8b87;
   background: #efe7db;
@@ -115,6 +115,10 @@
   text-align: center;
   padding-left: 20px;
   padding-right: 20px;
+}
+
+.txt-small {
+  font-size: 1rem;
 }
 
 .txt-head {

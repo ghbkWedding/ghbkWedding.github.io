@@ -2,7 +2,6 @@ import React from "react";
 import { Row, Col } from "reactstrap";
 
 import { ProfileCard } from "../Component";
-import Welcome from "../Component/Welcome";
 
 export default function Profile(props) {
   const { bridal, groom } = props.config;
@@ -17,7 +16,7 @@ export default function Profile(props) {
         </Col>
       </Row>
       <Row>
-        <Col className="mb-5 txt-center">
+        <Col className="mb-5 txt-center txt-small">
           <p>평생을 같이하고 싶은 사람을 만났습니다.</p>
           <p>서로 아껴주고 이해하며</p>
           <p>사랑 베풀며 살고 싶습니다.</p>
