@@ -7,7 +7,7 @@ export default function Profile(props) {
   const { bridal, groom } = props.config;
   return (
     <div>
-      <Row className="mt-5 mb-5">
+      <Row className="mt-5 mb-5 profile">
         <Col>
           <ProfileCard profile={bridal} />
         </Col>
