@@ -2,7 +2,6 @@
 @import url(https://fonts.googleapis.com/earlyaccess/nanummyeongjo.css);
 @import url(https://fonts.googleapis.com/css?family=Lobster);
 @import url(https://fonts.googleapis.com/earlyaccess/notosanskr.css);
-@import url(https://fonts.googleapis.com/css2?family=Poor+Story&display=swap);
 
 @font-face {
   font-family: "GowunBatang-Regular";
@@ -16,22 +15,6 @@
   font-family: "GowunBatang-Bold";
   src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/GowunBatang-Bold.woff")
     format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "YUniverse-L";
-  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_yuniverse@1.0/YUniverse-L.woff2")
-    format("woff2");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "YUniverse-B";
-  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_yuniverse@1.0/YUniverse-B.woff2")
-    format("woff2");
   font-weight: normal;
   font-style: normal;
 }

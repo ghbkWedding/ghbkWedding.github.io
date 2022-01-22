@@ -59,7 +59,7 @@ export default function Account(props) {
                 </a> */}
       {displayState ? (
         <div>
-          <Row className="mb-1 txt-small txt-left">
+          <Row className="mb-1 txt-left">
             <Col className="pb-2 pr-3">
               <p className="mb-1 txt-head">{bridal.role}측</p>
 
@@ -71,7 +71,7 @@ export default function Account(props) {
               </p>
             </Col>
           </Row>
-          <Row className="mb-1 txt-small txt-left">
+          <Row className="mb-1 txt-left">
             <Col className="pt-2 pb-2 pr-3">
               <p className="mb-1 txt-head">{groom.role}측</p>
               <p className="mb-1">

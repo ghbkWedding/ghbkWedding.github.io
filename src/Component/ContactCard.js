@@ -6,6 +6,7 @@ export default function Contact(props) {
   const {
     name,
     role,
+    image_icon,
     phone,
     father,
     mother,
@@ -15,6 +16,11 @@ export default function Contact(props) {
   } = props.profile;
   return (
     <div>
+      <Row className="pt-3">
+        <Col>
+          <img className="rounded-circle " src={image_icon} />
+        </Col>
+      </Row>
       <Row className="pt-4 txt-head">
         <Col>
           <p className="mb-3 txt-head">{role} 측 혼주 연락하기</p>
