@@ -1,8 +1,8 @@
 {
-  "main.css": "static/css/main.b0598038.css",
-  "main.css.map": "static/css/main.b0598038.css.map",
-  "main.js": "static/js/main.3c3068ea.js",
-  "main.js.map": "static/js/main.3c3068ea.js.map",
+  "main.css": "static/css/main.fbdf5000.css",
+  "main.css.map": "static/css/main.fbdf5000.css.map",
+  "main.js": "static/js/main.d5719c69.js",
+  "main.js.map": "static/js/main.d5719c69.js.map",
   "static/media/01.jpeg": "static/media/01.751a93c5.jpeg",
   "static/media/02.jpeg": "static/media/02.ca894b48.jpeg",
   "static/media/03.jpeg": "static/media/03.fb35cfff.jpeg",
@@ -19,6 +19,9 @@
   "static/media/14.jpeg": "static/media/14.7e49e868.jpeg",
   "static/media/15.jpeg": "static/media/15.030fa5ef.jpeg",
   "static/media/bridal.jpg": "static/media/bridal.6ce6f324.jpg",
+  "static/media/flower_green.png": "static/media/flower_green.cc76dfc1.png",
+  "static/media/flower_pink.png": "static/media/flower_pink.7571c34f.png",
+  "static/media/flower_yellow.png": "static/media/flower_yellow.c17e6382.png",
   "static/media/groom.jpg": "static/media/groom.a69d3b4c.jpg",
   "static/media/header.jpg": "static/media/header.1ce67ce0.jpg",
   "static/media/map.png": "static/media/map.4f2dbf97.png"
