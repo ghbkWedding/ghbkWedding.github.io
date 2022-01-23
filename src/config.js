@@ -91,4 +91,9 @@ export default {
       thumbnail: item,
     })),
   },
+  icon: {
+    flower_pink: require("./Image/icon/flower_pink.png"),
+    flower_yellow: require("./Image/icon/flower_yellow.png"),
+    flower_green: require("./Image/icon/flower_green.png"),
+  },
 };

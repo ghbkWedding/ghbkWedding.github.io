@@ -1,10 +1,19 @@
 import React, { useState, useRef } from "react";
-import { Row, Col } from "reactstrap";
+import { Row, Col, Button } from "reactstrap";
 import FontAwesome from "react-fontawesome";
 
 export default function Account(props) {
-  const { bridal, groom } = props.config;
+  const { bridal, groom, icon } = props.config;
   const [displayState, setDisplayState] = useState(false);
+
+  const copyText = useRef();
+
+  const copy = () => {
+    const el = copyText.current;
+    console.log(el);
+    el.select();
+    document.execCommand("copy");
+  };
 
   const doCopy = (text) => {
     // 흐름 1.
@@ -42,11 +51,16 @@ export default function Account(props) {
         </Col>
       </Row>
       <Row>
-        <Col className="mb-3">
-          <p className="mb-1">코로나로 인해 송구스럽게도</p>
-          <p className="mb-1">계좌번호를 기재한 점 널리 이해부탁드립니다.</p>
-          <p className="mb-1">축의금이 아닌 마음만으로도</p>
-          <p className="mb-1">충분히 감사드립니다.</p>
+        <Col className="mb-3 txt-middle">
+          <p className="mb-1">혹 참석하지 못하시더라도</p>
+          <p className="mb-1">축복해주시는 마음</p>
+          <p className="mb-1">꼭 잊지않고 잘 살겠습니다.</p>
+          <p className="mb-1">감사합니다.</p>
+        </Col>
+      </Row>
+      <Row>
+        <Col>
+          <img className="rounded-circle flower-icon" src={icon.flower_pink} />
         </Col>
       </Row>
       <Row className="btn-account mb-5">
@@ -58,7 +72,7 @@ export default function Account(props) {
                   <FontAwesome name="phone" />
                 </a> */}
       {displayState ? (
-        <div>
+        <div className="account">
           <Row className="mb-1 txt-left">
             <Col className="pb-2 pr-3">
               <p className="mb-1 txt-head">{bridal.role}측</p>
@@ -74,9 +88,18 @@ export default function Account(props) {
           <Row className="mb-1 txt-left">
             <Col className="pt-2 pb-2 pr-3">
               <p className="mb-1 txt-head">{groom.role}측</p>
-              <p className="mb-1">
+              <a
+                type="text"
+                value="ddddd"
+                ref={copyText}
+                className="mb-1"
+                readOnly
+              >
                 {groom.motherAccount} ({groom.mother})
-              </p>
+                {/* <Button className="btn-copy" onClick={copy}>
+                  copy
+                </Button> */}
+              </a>
               <p className="mb-1">
                 {groom.fatherAccount} ({groom.father})
               </p>

@@ -6,11 +6,11 @@ export default function Contact(props) {
   const { bridal, groom } = props.config;
   return (
     <div>
-      <Row className="mt-5 mb-5">
-        <Col>
+      <Row className="mt-5 mb-5 profile">
+        <Col className="mb-5 ">
           <ContactCard profile={bridal} />
         </Col>
-        <Col className="mb-5">
+        <Col className="mb-5 ">
           <ContactCard profile={groom} />
         </Col>
       </Row>

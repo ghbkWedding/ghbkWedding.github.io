@@ -108,6 +108,17 @@
   color: #464641;
 }
 
+.btn-copy {
+  font-size: 0.9rem;
+  margin: 10px;
+  padding: 4px 6px;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  background: #efe7db;
+  color: #464641;
+}
+
 .txt-left {
   font-size: 1.2rem;
   text-align: left;
@@ -125,6 +136,9 @@
   font-size: 0.9rem;
 }
 
+.txt-middle {
+  font-size: 1.1rem;
+}
 .txt-head {
   font-family: "GowunBatang-Bold";
   /* font-family: "YUniverse-B"; */
@@ -134,4 +148,13 @@
   font-size: 1.8rem;
   /* font-family: "YUniverse-B"; */
   font-family: "GowunBatang-Bold";
+}
+
+.account {
+  margin: 20px;
+}
+
+.flower-icon {
+  width: 20%;
+  height: 70%;
 }

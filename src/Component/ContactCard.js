@@ -18,7 +18,7 @@ export default function Contact(props) {
     <div>
       <Row className="pt-3">
         <Col>
-          <img className="rounded-circle " src={image_icon} />
+          <img className="rounded-circle contact-icon" src={image_icon} />
         </Col>
       </Row>
       <Row className="pt-4 txt-head">
