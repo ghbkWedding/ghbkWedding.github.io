@@ -15,7 +15,7 @@ export default function Profile(props) {
           <ProfileCard profile={groom} />
         </Col>
       </Row>
-      <Row>
+      <Row className="flower-yellow">
         <img className="rounded-circle flower-icon" src={icon.flower_yellow} />
       </Row>
       <Row className="">
@@ -30,7 +30,7 @@ export default function Profile(props) {
           <p>더없는 감사를 드리겠습니다.</p>
         </Col>
       </Row>
-      <Row>
+      <Row className="flower-green">
         <img className="rounded-circle flower-icon" src={icon.flower_green} />
       </Row>
     </div>
