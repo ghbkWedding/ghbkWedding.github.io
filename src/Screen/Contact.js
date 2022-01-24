@@ -6,7 +6,7 @@ export default function Contact(props) {
   const { bridal, groom } = props.config;
   return (
     <div>
-      <Row className="mb-5 profile">
+      <Row className="mt-5 mb-5 background-rounded">
         <Col className="mb-5 ">
           <ContactCard profile={bridal} />
         </Col>

@@ -12,9 +12,9 @@ export default function Contact(props) {
           <img className="rounded-circle contact-icon" src={image_icon} />
         </Col>
       </Row>
-      <Row className="pt-5 txt-head">
+      <Row className="pt-5 txt-bold">
         <Col>
-          <p className="mb-5 txt-head">{role} 측 혼주 연락하기</p>
+          <p className="mb-5 txt-bold">{role} 측 혼주 연락하기</p>
         </Col>
       </Row>
       {motherPhone ? (

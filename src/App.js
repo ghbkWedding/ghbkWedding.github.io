@@ -7,7 +7,7 @@ import config from "./config";
 
 export default function App() {
   return (
-    <Container className="app">
+    <Container className="app ">
       <Screen.Header config={config} />
       <Screen.Profile config={config} />
       <Screen.Gallery config={config} />

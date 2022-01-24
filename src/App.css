@@ -19,17 +19,12 @@
   font-style: normal;
 }
 
-.gallery {
-  /* padding: */
-}
-
 .app {
   font-size: 1.3rem;
-  background-color: #ffffff;
-  text-align: center;
   font-family: "GowunBatang-Regular";
-  /* font-family: "YUniverse-L"; */
+  text-align: center;
   color: #464641;
+  background-color: #ffffff;
   word-wrap: break-word;
   word-break: keep-all;
 }
@@ -39,25 +34,54 @@
   padding-right: 0;
 }
 
+.txt-left {
+  text-align: left;
+  margin: 5px;
+}
+
+.txt-small {
+  font-size: 0.9rem;
+}
+
+.txt-middle {
+  font-size: 1.2rem;
+}
+.txt-bold {
+  font-family: "GowunBatang-Bold";
+}
+
+.txt-title {
+  font-size: 1.8rem;
+}
+
 .app-header {
-  margin-top: 20px;
-  padding: 10px;
-  height: 80px;
-  font-family: "YUniverse-B";
-  /* color: #8e8b87; */
-  font-family: "Lobster";
+  /* margin-top: 50px; */
+  /* padding: 10px; */
+  /* font-family: "Lobster"; */
+}
+
+.img-header-title {
+  padding: 60px;
+  width: 90%;
 }
 
 .img-header {
-  padding: 50px;
+  padding: 60px;
+  width: 90%;
 }
 .app-footer {
   height: 300px;
   font-family: "Noto Sans KR", sans-serif;
 }
 
-.contact-icon {
-  width: 40%;
+.btn-wide {
+  font-size: 1.2rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  background: #efe7db;
+  color: #464641;
+  width: 100%;
 }
 
 .btn-icon {
@@ -71,102 +95,27 @@
   background: #efe7db;
 }
 
-.btn-naver {
-  border: none;
-  cursor: pointer;
-  font-size: 1.1rem;
-  border-radius: 8px;
-  background: #efe7db;
-  color: #464641;
-  width: 100%;
-}
-
 .map-image {
   margin-top: 10px;
   width: 100%;
   height: 95%;
 }
 
-.profile {
+.background-rounded {
+  padding: 15px;
+  margin: 5px;
   border-radius: 10px;
-  padding: 10px;
-  margin: 10px;
   background-color: #efe7db;
   background-color: rgba(239, 231, 219, 0.3);
 }
 
 .profile-image {
-  padding: 10px;
-  width: 100%;
-  height: 100%;
-}
-
-.btn-account {
-  margin: 5px;
-  border: none;
-  cursor: pointer;
-  font-size: 1.1rem;
-  border-radius: 8px;
-  background: #efe7db;
-  color: #464641;
-}
-
-.btn-copy {
-  font-size: 0.9rem;
-  margin: 10px;
-  padding: 4px 6px;
-  border: none;
-  cursor: pointer;
-  border-radius: 8px;
-  background: #efe7db;
-  color: #464641;
-}
-
-.txt-left {
-  font-size: 1.2rem;
-  text-align: left;
-  /* padding-left: 20px;
-  padding-right: 20px; */
-}
-
-.txt-center {
-  text-align: center;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-.txt-small {
-  font-size: 0.9rem;
-}
-
-.txt-middle {
-  font-size: 1.1rem;
-}
-.txt-head {
-  font-family: "GowunBatang-Bold";
-  /* font-family: "YUniverse-B"; */
-}
-
-.txt-title {
-  font-size: 1.8rem;
-  /* font-family: "YUniverse-B"; */
-  font-family: "GowunBatang-Bold";
-}
-
-.account {
-  /* margin: 10px; */
-  border-radius: 10px;
   padding: 15px;
-  margin: 5px;
-  border: none;
-  border-radius: 10px;
-  background-color: #efe7db;
-  background-color: rgba(239, 231, 219, 0.3);
+  width: 100%;
 }
 
 .flower-icon {
   width: 20%;
-  /* height: 80%; */
   margin: 10px;
 }
 
@@ -174,16 +123,9 @@
   display: inline-block;
   margin-bottom: 20px;
   width: 70%;
-  height: 70%;
 }
 
 .flower-green {
   display: inline-block;
-  /* float: right; */
   width: 90%;
-}
-
-.jeju-gallery {
-  padding: 20px;
-  /* marginlpx; */
 }

@@ -60,7 +60,9 @@ export default function Account(props) {
     <Col className="mt-5">
       <Row className="mt-5">
         <Col className="mt-5">
-          <p className="txt-title mb-3 pb-3 mt-5">신랑 신부에게 마음 전하기</p>
+          <p className="txt-bold txt-title mb-3 pb-3 mt-5">
+            신랑 신부에게 마음 전하기
+          </p>
         </Col>
       </Row>
       <Row className="mb-3">
@@ -76,19 +78,17 @@ export default function Account(props) {
           <img className="rounded-circle flower-icon" src={icon.flower_pink} />
         </Col>
       </Row>
-      <Row className="btn-account mb-3">
-        <Col className="pt-2 pb-2 pr-3">
+      <Row className="btn btn-wide mb-3">
+        <Col>
           <a onClick={onClickAccountBtn}>계좌번호 확인 ▽</a>
         </Col>
       </Row>
-      {/* <a className="btn-icon" role="button" href={doCopy("d")}>
-                  <FontAwesome name="phone" />
-                </a> */}
+
       {displayState ? (
-        <div className="account">
+        <Col className="background-rounded">
           <Row className="mb-1 txt-left">
-            <Col className="pb-2 pr-3">
-              <p className="mb-3 txt-head">{bridal.role}측</p>
+            <Col className="">
+              <p className="mb-3 txt-bold">{bridal.role}측</p>
 
               <p className="mb-1 txt-middle">
                 {bridal.motherAccount} ({bridal.mother})
@@ -99,8 +99,8 @@ export default function Account(props) {
             </Col>
           </Row>
           <Row className="mb-1 txt-left">
-            <Col className="pt-2 pb-2 pr-3">
-              <p className="mb-3 txt-head">{groom.role}측</p>
+            <Col className="pt-2 pb-2">
+              <p className="mb-3 txt-bold">{groom.role}측</p>
               <p className="mb-1 txt-middle">
                 {groom.motherAccount} ({groom.mother})
                 {/* <Button className="btn-copy" onClick={copy}>
@@ -115,7 +115,7 @@ export default function Account(props) {
               </p>
             </Col>
           </Row>
-        </div>
+        </Col>
       ) : (
         ""
       )}

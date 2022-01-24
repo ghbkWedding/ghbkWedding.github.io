@@ -17,12 +17,12 @@ export default function ProfileCard(props) {
             />
           </Col>
         </Row>
-        <Row className="mt-3 mb-3">
+        <Row className="mt-5 mb-3">
           <Col>
-            <p className="mb-1 txt-center txt-small txt-head">
+            <p className="mb-1 txt-small txt-bold">
               {mother}, {father}의 {position}
             </p>
-            <p className="txt-head">{name_short}</p>
+            <p className="txt-bold">{name_short}</p>
           </Col>
         </Row>
         <Row>

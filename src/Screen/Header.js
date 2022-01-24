@@ -11,9 +11,14 @@ export default function Header(props) {
       <Col>
         <Row>
           <Col className="app-fluid">
-            <div className="app-header d-flex justify-content-center">
+            {/* <div className="app-header d-flex justify-content-center">
               <h2 className="mb-0">{title}</h2>
-            </div>
+            </div> */}
+            <img
+              className="img-fluid img-header-title"
+              src={image.header_title}
+              alt="header_title"
+            />
             <img
               className="img-fluid img-header"
               src={image.header}
@@ -23,13 +28,13 @@ export default function Header(props) {
         </Row>
         <Row>
           <Col className="pt-5 ">
-            <h3 className="txt-title mb-5">
-              {bridal.name}&nbsp;♥&nbsp;{groom.name}
+            <h3 className="txt-bold txt-title mb-5">
+              {bridal.name}&nbsp;&nbsp;♥&nbsp;&nbsp;{groom.name}
             </h3>
-            <p className="lead pt-3">
+            <p className="pt-3">
               {moment(wedding.at, "YYYY-MM-DD HH:mm").format("LLLL")}
             </p>
-            <p className="lead pt-0">{wedding.place.name}</p>
+            <p className="pt-0">{wedding.place.name}</p>
           </Col>
         </Row>
       </Col>

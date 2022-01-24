@@ -33,7 +33,7 @@ export default {
       },
     },
   },
-  title: "💍 Wedding Day 💍", // recomanded English
+  // title: "💍 Wedding Day 💍", // recomanded English
   wedding: {
     place: {
       name: "더컨벤션 신사점 4층",
@@ -86,6 +86,7 @@ export default {
     groom: "",
   },
   image: {
+    header_title: require("./Image/header_title.jpg"),
     header: require("./Image/header.jpg"),
     gallery: gallery.map((item) => ({
       original: item,
