@@ -17,7 +17,7 @@ export default function ProfileCard(props) {
             />
           </Col>
         </Row>
-        <Row className="pt-4">
+        <Row className="mt-3 mb-3">
           <Col>
             <p className="mb-1 txt-center txt-small txt-head">
               {mother}, {father}의 {position}
