@@ -9,12 +9,6 @@ const gallery = [
   require("./Image/gallery/07.jpg"),
   require("./Image/gallery/08.jpg"),
   // require("./Image/gallery/09.jpg"),
-  require("./Image/gallery/10.jpeg"),
-  require("./Image/gallery/11.jpeg"),
-  require("./Image/gallery/12.jpeg"),
-  require("./Image/gallery/13.jpeg"),
-  require("./Image/gallery/14.jpeg"),
-  require("./Image/gallery/15.jpeg"),
 ];
 
 export default {
@@ -96,4 +90,12 @@ export default {
     flower_yellow: require("./Image/icon/flower_yellow.png"),
     flower_green: require("./Image/icon/flower_green.png"),
   },
+  jeju: [
+    require("./Image/gallery/10.jpeg"),
+    require("./Image/gallery/11.jpeg"),
+    require("./Image/gallery/12.jpeg"),
+    require("./Image/gallery/13.jpeg"),
+    require("./Image/gallery/14.jpeg"),
+    require("./Image/gallery/15.jpeg"),
+  ],
 };
