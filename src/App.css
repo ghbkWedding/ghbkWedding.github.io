@@ -51,11 +51,10 @@
 .img-header {
   padding: 50px;
 }
-/* .app-footer {
-  height: 100px;
-  color: black;
+.app-footer {
+  height: 300px;
   font-family: "Noto Sans KR", sans-serif;
-} */
+}
 
 .btn-icon {
   border: none;
