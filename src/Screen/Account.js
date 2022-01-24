@@ -63,7 +63,7 @@ export default function Account(props) {
           <img className="rounded-circle flower-icon" src={icon.flower_pink} />
         </Col>
       </Row>
-      <Row className="btn-account mb-5">
+      <Row className="btn-account mb-1">
         <Col className="pt-2 pb-2 pr-3">
           <a onClick={onClickAccountBtn}>계좌번호 확인 ▽</a>
         </Col>
@@ -75,35 +75,29 @@ export default function Account(props) {
         <div className="account">
           <Row className="mb-1 txt-left">
             <Col className="pb-2 pr-3">
-              <p className="mb-1 txt-head">{bridal.role}측</p>
+              <p className="mb-3 txt-head">{bridal.role}측</p>
 
-              <p className="mb-1">
+              <p className="mb-1 txt-middle">
                 {bridal.motherAccount} ({bridal.mother})
               </p>
-              <p className="mb-1">
+              <p className="mb-1 txt-middle">
                 {bridal.account} ({bridal.name})
               </p>
             </Col>
           </Row>
           <Row className="mb-1 txt-left">
             <Col className="pt-2 pb-2 pr-3">
-              <p className="mb-1 txt-head">{groom.role}측</p>
-              <a
-                type="text"
-                value="ddddd"
-                ref={copyText}
-                className="mb-1"
-                readOnly
-              >
+              <p className="mb-3 txt-head">{groom.role}측</p>
+              <p className="mb-1 txt-middle">
                 {groom.motherAccount} ({groom.mother})
                 {/* <Button className="btn-copy" onClick={copy}>
                   copy
                 </Button> */}
-              </a>
-              <p className="mb-1">
+              </p>
+              <p className="mb-1 txt-middle">
                 {groom.fatherAccount} ({groom.father})
               </p>
-              <p className="mb-1">
+              <p className="mb-1 txt-middle">
                 {groom.account} ({groom.name})
               </p>
             </Col>

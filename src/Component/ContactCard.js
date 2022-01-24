@@ -29,7 +29,7 @@ export default function Contact(props) {
       {motherPhone ? (
         <Row className="mb-3">
           <Col>
-            <p className="mb-1">어머니 {mother}</p>
+            <p className="mb-1 txt-middle">어머니 {mother}</p>
           </Col>
           <Col>
             <a className="btn-icon" role="button" href={`tel:${motherPhone}`}>
@@ -43,7 +43,7 @@ export default function Contact(props) {
       {fatherPhone ? (
         <Row className="mb-1">
           <Col>
-            <p className="mb-1">아버지 {father}</p>
+            <p className="mb-1 txt-middle">아버지 {father}</p>
           </Col>
           <Col>
             <a className="btn-icon" role="button" href={`tel:${fatherPhone}`}>

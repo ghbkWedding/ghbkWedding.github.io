@@ -151,7 +151,14 @@
 }
 
 .account {
-  margin: 20px;
+  /* margin: 10px; */
+  border-radius: 10px;
+  padding: 15px;
+  margin: 5px;
+  border: none;
+  border-radius: 10px;
+  background-color: #efe7db;
+  background-color: rgba(239, 231, 219, 0.3);
 }
 
 .flower-icon {
