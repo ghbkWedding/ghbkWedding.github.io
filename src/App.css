@@ -156,7 +156,8 @@
 
 .flower-icon {
   width: 20%;
-  height: 70%;
+  /* height: 80%; */
+  margin: 10px;
 }
 
 .flower-yellow {
@@ -167,5 +168,6 @@
 
 .flower-green {
   text-align: right;
-  margin-left: 150px;
+  margin-left: 420px;
+  width: 100%;
 }

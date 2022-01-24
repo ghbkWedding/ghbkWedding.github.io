@@ -59,7 +59,7 @@ export default function Account(props) {
         </Col>
       </Row>
       <Row>
-        <Col>
+        <Col className="mb-5">
           <img className="rounded-circle flower-icon" src={icon.flower_pink} />
         </Col>
       </Row>
