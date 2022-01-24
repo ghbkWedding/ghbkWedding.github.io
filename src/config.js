@@ -5,10 +5,10 @@ const gallery = [
   require("./Image/gallery/03.jpg"),
   require("./Image/gallery/04.jpg"),
   require("./Image/gallery/05.jpg"),
-  // require("./Image/gallery/06.jpg"),
+  require("./Image/gallery/06.jpg"),
   require("./Image/gallery/07.jpg"),
   require("./Image/gallery/08.jpg"),
-  // require("./Image/gallery/09.jpg"),
+  require("./Image/gallery/09.jpg"),
 ];
 
 export default {
@@ -26,7 +26,7 @@ export default {
       },
     },
   },
-  title: "Wedding Day 💍", // recomanded English
+  title: "💍 Wedding Day 💍", // recomanded English
   wedding: {
     place: {
       name: "더컨벤션 신사점 4층",
@@ -91,11 +91,35 @@ export default {
     flower_green: require("./Image/icon/flower_green.png"),
   },
   jeju: [
-    require("./Image/gallery/10.jpeg"),
-    require("./Image/gallery/11.jpeg"),
-    require("./Image/gallery/12.jpeg"),
-    require("./Image/gallery/13.jpeg"),
-    require("./Image/gallery/14.jpeg"),
-    require("./Image/gallery/15.jpeg"),
+    {
+      src: require("./Image/gallery/10.jpeg"),
+      width: 2,
+      height: 3,
+    },
+    {
+      src: require("./Image/gallery/11.jpeg"),
+      width: 2,
+      height: 3,
+    },
+    {
+      src: require("./Image/gallery/12.jpeg"),
+      width: 2,
+      height: 3,
+    },
+    {
+      src: require("./Image/gallery/13.jpeg"),
+      width: 2,
+      height: 3,
+    },
+    {
+      src: require("./Image/gallery/14.jpeg"),
+      width: 2,
+      height: 3,
+    },
+    {
+      src: require("./Image/gallery/15.jpeg"),
+      width: 2,
+      height: 3,
+    },
   ],
 };

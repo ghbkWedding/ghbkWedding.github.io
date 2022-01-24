@@ -1,5 +1,5 @@
 import React, { useState, useRef } from "react";
-import { Row, Col, Button } from "reactstrap";
+import { Row, Col, Modal, Button } from "reactstrap";
 import FontAwesome from "react-fontawesome";
 
 export default function Account(props) {

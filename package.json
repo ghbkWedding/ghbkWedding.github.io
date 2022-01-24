@@ -13,6 +13,7 @@
     "react-google-maps": "^9.4.2",
     "react-helmet": "^5.2.0",
     "react-image-gallery": "^0.8.6",
+    "react-photo-gallery": "^8.0.0",
     "react-scripts": "1.0.17",
     "reactstrap": "^5.0.0-alpha.4"
   },

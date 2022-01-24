@@ -44,7 +44,7 @@
   padding: 10px;
   height: 80px;
   font-family: "YUniverse-B";
-  color: #8e8b87;
+  /* color: #8e8b87; */
   font-family: "Lobster";
 }
 
@@ -180,7 +180,7 @@
   width: 90%;
 }
 
-.img-jeju {
-  margin-bottom: 20px;
-  width: 100%;
+.jeju-gallery {
+  padding: 20px;
+  /* marginlpx; */
 }

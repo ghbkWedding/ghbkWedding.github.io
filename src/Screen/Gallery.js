@@ -1,9 +1,11 @@
 import React from "react";
 import ImageGallery from "react-image-gallery";
+import PhotoGallery from "react-photo-gallery";
 import { Row, Col } from "reactstrap";
 
 export default function Gallery(props) {
   const { image, jeju } = props.config;
+  const IMG_SET = [{ src: require("../Image/gallery/10.jpeg") }];
   return (
     <div>
       <Row>
@@ -11,27 +13,8 @@ export default function Gallery(props) {
           <ImageGallery items={image.gallery} />
         </Col>
       </Row>
-      <Row className="mt-5">
-        <Col>
-          <img className="img-jeju" src={jeju[0]} href="#" />
-        </Col>
-        <Col>
-          <img className="img-jeju" src={jeju[1]} />
-        </Col>
-        <Col>
-          <img className="img-jeju" src={jeju[2]} />
-        </Col>
-      </Row>
-      <Row>
-        <Col>
-          <img className="img-jeju" src={jeju[4]} alt={jeju[4]} />
-        </Col>
-        <Col>
-          <img className="img-jeju" src={jeju[4]} />
-        </Col>
-        <Col>
-          <img className="img-jeju" src={jeju[5]} />
-        </Col>
+      <Row className="jeju-gallery">
+        <PhotoGallery photos={jeju} />
       </Row>
     </div>
   );
