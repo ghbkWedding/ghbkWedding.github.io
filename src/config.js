@@ -5,7 +5,7 @@ const gallery = [
   require("./Image/gallery/03.jpg"),
   require("./Image/gallery/04.jpg"),
   require("./Image/gallery/05.jpg"),
-  require("./Image/gallery/06.jpg"),
+  // require("./Image/gallery/06.jpg"),
   require("./Image/gallery/07.jpg"),
   require("./Image/gallery/08.jpg"),
   // require("./Image/gallery/09.jpg"),
