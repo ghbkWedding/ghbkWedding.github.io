@@ -3,7 +3,7 @@ import { Row, Col, Button } from "reactstrap";
 
 export default function Account(props) {
   const { bridal, groom, icon } = props.config;
-  const [displayState, setDisplayState] = useState(true);
+  const [displayState, setDisplayState] = useState(false);
 
   const doCopy = (copyText) => {
     // 흐름 1.
