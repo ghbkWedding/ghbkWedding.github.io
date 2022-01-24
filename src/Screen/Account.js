@@ -59,11 +59,11 @@ export default function Account(props) {
   return (
     <Col className="mt-5">
       <Row className="mt-5">
-        <Col>
-          <p className="txt-title mb-3 pb-3">신랑 신부에게 마음 전하기</p>
+        <Col className="mt-5">
+          <p className="txt-title mb-3 pb-3 mt-5">신랑 신부에게 마음 전하기</p>
         </Col>
       </Row>
-      <Row>
+      <Row className="mb-3">
         <Col className="mb-3 txt-middle">
           <p className="mb-1">혹 참석하지 못하시더라도</p>
           <p className="mb-1">축복해주시는 마음</p>
@@ -76,7 +76,7 @@ export default function Account(props) {
           <img className="rounded-circle flower-icon" src={icon.flower_pink} />
         </Col>
       </Row>
-      <Row className="btn-account mb-1">
+      <Row className="btn-account mb-3">
         <Col className="pt-2 pb-2 pr-3">
           <a onClick={onClickAccountBtn}>계좌번호 확인 ▽</a>
         </Col>

@@ -29,7 +29,7 @@ export default function Place(props) {
           </Col>
         </Row>
         <Row className="mb-5 txt-left">
-          <Col>
+          <Col className="mb-5">
             <p className="mb-1 txt-head">더컨벤션 신사</p>
             <p className="mb-3">Tel. 02-6081-5000</p>
             <p className="mb-1 txt-head">지하철 이용 시</p>

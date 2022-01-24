@@ -7,14 +7,14 @@ export default function Contact(props) {
     props.profile;
   return (
     <div>
-      <Row className="pt-3">
+      <Row className="pt-5">
         <Col>
           <img className="rounded-circle contact-icon" src={image_icon} />
         </Col>
       </Row>
-      <Row className="pt-4 txt-head">
+      <Row className="pt-5 txt-head">
         <Col>
-          <p className="mb-3 txt-head">{role} 측 혼주 연락하기</p>
+          <p className="mb-5 txt-head">{role} 측 혼주 연락하기</p>
         </Col>
       </Row>
       {motherPhone ? (
