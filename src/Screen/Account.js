@@ -71,7 +71,7 @@ export default function Account(props) {
             <Col>
               <p className="mb-3 txt-bold">{bridal.role}측</p>
 
-              <p className="txt-middle">
+              <p className="txt-small">
                 {bridal.motherAccount} ({bridal.mother})
                 <Button
                   className="btn btn-icon btn-copy"
@@ -80,7 +80,7 @@ export default function Account(props) {
                   copy
                 </Button>
               </p>
-              <p className="txt-middle">
+              <p className="txt-small">
                 {bridal.account} ({bridal.name})
                 <Button
                   className="btn btn-icon btn-copy"
@@ -94,7 +94,7 @@ export default function Account(props) {
           <Row className="mb-3 txt-left">
             <Col>
               <p className="txt-bold">{groom.role}측</p>
-              <p className="txt-middle">
+              <p className="txt-small">
                 {groom.motherAccount} ({groom.mother})
                 <Button
                   className="btn btn-icon btn-copy"
@@ -104,7 +104,7 @@ export default function Account(props) {
                 </Button>
               </p>
 
-              <p className="txt-middle">
+              <p className="txt-small">
                 {groom.fatherAccount} ({groom.father})
                 <Button
                   className="btn btn-icon btn-copy"
@@ -113,7 +113,7 @@ export default function Account(props) {
                   copy
                 </Button>
               </p>
-              <p className="txt-middle">
+              <p className="txt-small">
                 {groom.account} ({groom.name})
                 <Button
                   className="btn btn-icon btn-copy"
