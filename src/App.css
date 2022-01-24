@@ -56,6 +56,10 @@
   font-family: "Noto Sans KR", sans-serif;
 }
 
+.contact-icon {
+  width: 40%;
+}
+
 .btn-icon {
   border: none;
   cursor: pointer;
