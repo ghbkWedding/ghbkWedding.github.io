@@ -30,7 +30,7 @@ export default function Profile(props) {
           <p>더없는 감사를 드리겠습니다.</p>
         </Col>
       </Row>
-      <Row className="flower-green">
+      <Row className="flower-green mb-3">
         <img className="rounded-circle flower-icon" src={icon.flower_green} />
       </Row>
     </div>

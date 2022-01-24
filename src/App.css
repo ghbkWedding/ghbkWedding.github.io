@@ -167,7 +167,8 @@
 }
 
 .flower-green {
-  text-align: right;
-  margin-left: 420px;
-  width: 100%;
+  display: inline-block;
+  float: right;
+  /* margin-right: 10px; */
+  width: 90%;
 }
