@@ -167,15 +167,15 @@
 }
 
 .flower-yellow {
-  margin-left: 20px;
+  display: inline-block;
+  margin-bottom: 20px;
   width: 70%;
   height: 70%;
 }
 
 .flower-green {
   display: inline-block;
-  float: right;
-  /* margin-right: 10px; */
+  /* float: right; */
   width: 90%;
 }
 
