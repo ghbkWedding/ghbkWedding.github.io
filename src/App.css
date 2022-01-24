@@ -36,7 +36,7 @@
 
 .txt-left {
   text-align: left;
-  margin: 5px;
+  margin: 2px;
 }
 
 .txt-small {
@@ -44,7 +44,7 @@
 }
 
 .txt-middle {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 .txt-bold {
   font-family: "GowunBatang-Bold";
@@ -95,9 +95,22 @@
   background: #efe7db;
 }
 
+.btn-copy {
+  margin: 0px;
+  padding: 4px 6px;
+  float: right;
+}
+
 .background-rounded {
   padding: 15px;
   margin: 5px;
+  border-radius: 10px;
+  background-color: #efe7db;
+  background-color: rgba(239, 231, 219, 0.3);
+}
+
+.account-background-rounded {
+  padding: 15px;
   border-radius: 10px;
   background-color: #efe7db;
   background-color: rgba(239, 231, 219, 0.3);
