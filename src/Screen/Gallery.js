@@ -13,9 +13,9 @@ export default function Gallery(props) {
           <ImageGallery items={image.gallery} />
         </Col>
       </Row>
-      <Row className="jeju-gallery">
+      {/* <Row className="jeju-gallery">
         <PhotoGallery photos={jeju} />
-      </Row>
+      </Row> */}
     </div>
   );
 }
