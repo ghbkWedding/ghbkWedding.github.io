@@ -1,21 +1,21 @@
 const gallery = [
   // galley image list
   require("./Image/gallery/01.jpg"),
-  // require("./Image/gallery/02.jpg"),
-  // require("./Image/gallery/03.jpg"),
-  // require("./Image/gallery/04.jpg"),
-  // require("./Image/gallery/05.jpg"),
-  // require("./Image/gallery/06.jpg"),
-  // require("./Image/gallery/07.jpg"),
-  // require("./Image/gallery/08.jpg"),
-  // require("./Image/gallery/09.jpg"),
+  require("./Image/gallery/02.jpg"),
+  require("./Image/gallery/03.jpg"),
+  require("./Image/gallery/04.jpg"),
+  require("./Image/gallery/05.jpg"),
+  require("./Image/gallery/06.jpg"),
+  require("./Image/gallery/07.jpg"),
+  require("./Image/gallery/08.jpg"),
+  require("./Image/gallery/09.jpg"),
 
-  // require("./Image/gallery/10.jpeg"),
-  // require("./Image/gallery/11.jpeg"),
-  // require("./Image/gallery/12.jpeg"),
-  // require("./Image/gallery/13.jpeg"),
-  // require("./Image/gallery/14.jpeg"),
-  // require("./Image/gallery/15.jpeg"),
+  require("./Image/gallery/10.jpeg"),
+  require("./Image/gallery/11.jpeg"),
+  require("./Image/gallery/12.jpeg"),
+  require("./Image/gallery/13.jpeg"),
+  require("./Image/gallery/14.jpeg"),
+  require("./Image/gallery/15.jpeg"),
 ];
 
 export default {
