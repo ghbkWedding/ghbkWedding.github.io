@@ -5,7 +5,7 @@ import { Row, Col } from "reactstrap";
 
 export default function Gallery(props) {
   const { image, jeju } = props.config;
-  const IMG_SET = [{ src: require("../Image/gallery/10.jpeg") }];
+
   return (
     <div>
       <Row>

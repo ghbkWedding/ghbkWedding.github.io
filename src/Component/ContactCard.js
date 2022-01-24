@@ -3,17 +3,8 @@ import { Row, Col } from "reactstrap";
 import FontAwesome from "react-fontawesome";
 
 export default function Contact(props) {
-  const {
-    name,
-    role,
-    image_icon,
-    phone,
-    father,
-    mother,
-    fatherPhone,
-    motherPhone,
-    position,
-  } = props.profile;
+  const { role, image_icon, father, mother, fatherPhone, motherPhone } =
+    props.profile;
   return (
     <div>
       <Row className="pt-3">

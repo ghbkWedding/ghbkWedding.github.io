@@ -1,12 +1,12 @@
-import React, { useState, useRef } from "react";
-import { Row, Col, Modal, Button } from "reactstrap";
-import FontAwesome from "react-fontawesome";
+import React, { useState, useCallback, useRef } from "react";
+import { Row, Col } from "reactstrap";
 
 export default function Account(props) {
   const { bridal, groom, icon } = props.config;
   const [displayState, setDisplayState] = useState(false);
 
   const copyText = useRef();
+  const scrollRef = useRef();
 
   const copy = () => {
     const el = copyText.current;
@@ -42,6 +42,19 @@ export default function Account(props) {
   const onClickAccountBtn = () => {
     setDisplayState(!displayState);
   };
+
+  const scrollToBottom = useCallback(() => {
+    console.log("d");
+    if (displayState) {
+      // 스크롤 내리기
+      scrollRef.current.scrollIntoView({
+        behavior: "smooth",
+        block: "end",
+        inline: "nearest",
+      });
+      console.log("d");
+    }
+  }, [displayState]);
 
   return (
     <Col className="mt-5">
@@ -106,6 +119,7 @@ export default function Account(props) {
       ) : (
         ""
       )}
+      <Row ref={scrollRef}></Row>
     </Col>
   );
 }
