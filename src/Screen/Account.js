@@ -67,14 +67,14 @@ export default function Account(props) {
       </Row>
       <Row className="mb-3">
         <Col className="mb-3 txt-middle">
-          <p className="mb-1">혹 참석하지 못하시더라도</p>
-          <p className="mb-1">축복해주시는 마음</p>
-          <p className="mb-1">꼭 잊지않고 잘 살겠습니다.</p>
-          <p className="mb-1">감사합니다.</p>
+          <p>혹 참석하지 못하시더라도</p>
+          <p>축복해주시는 마음</p>
+          <p>꼭 잊지않고 잘 살겠습니다.</p>
+          <p>감사합니다.</p>
         </Col>
       </Row>
-      <Row>
-        <Col className="mb-5">
+      <Row className="mb-5">
+        <Col>
           <img className="rounded-circle flower-icon" src={icon.flower_pink} />
         </Col>
       </Row>
@@ -87,30 +87,30 @@ export default function Account(props) {
       {displayState ? (
         <Col className="background-rounded">
           <Row className="mb-1 txt-left">
-            <Col className="">
+            <Col>
               <p className="mb-3 txt-bold">{bridal.role}측</p>
 
-              <p className="mb-1 txt-middle">
+              <p className="txt-middle">
                 {bridal.motherAccount} ({bridal.mother})
               </p>
-              <p className="mb-1 txt-middle">
+              <p className="txt-middle">
                 {bridal.account} ({bridal.name})
               </p>
             </Col>
           </Row>
           <Row className="mb-1 txt-left">
-            <Col className="pt-2 pb-2">
-              <p className="mb-3 txt-bold">{groom.role}측</p>
-              <p className="mb-1 txt-middle">
+            <Col>
+              <p className="txt-bold">{groom.role}측</p>
+              <p className="txt-middle">
                 {groom.motherAccount} ({groom.mother})
                 {/* <Button className="btn-copy" onClick={copy}>
                   copy
                 </Button> */}
               </p>
-              <p className="mb-1 txt-middle">
+              <p className="txt-middle">
                 {groom.fatherAccount} ({groom.father})
               </p>
-              <p className="mb-1 txt-middle">
+              <p className="txt-middle">
                 {groom.account} ({groom.name})
               </p>
             </Col>

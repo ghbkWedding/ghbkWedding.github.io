@@ -95,12 +95,6 @@
   background: #efe7db;
 }
 
-.map-image {
-  margin-top: 10px;
-  width: 100%;
-  height: 95%;
-}
-
 .background-rounded {
   padding: 15px;
   margin: 5px;
@@ -112,6 +106,12 @@
 .profile-image {
   padding: 15px;
   width: 100%;
+}
+
+.map-image {
+  margin-top: 10px;
+  width: 100%;
+  height: 95%;
 }
 
 .flower-icon {
